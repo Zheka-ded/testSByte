@@ -1,0 +1,52 @@
+.designer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: url('../img/designerBG.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    padding: 58px 54px 68px 46px;
+
+    &::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: #162633;
+        opacity: 0.75;
+        z-index: -1;
+    }
+
+    &__title-text{
+        margin-bottom: 253px;
+        line-height: 1.5;
+    }
+
+    &__logo{
+        width: 90px;
+        height: 90px;
+        margin-left: 10px;
+        background: url('../img/logo.png');
+        margin-bottom: 18px;
+    }
+    
+    &__bottom-title{
+        font-family: 'Roboto Bold';
+        margin-left: 10px;
+        letter-spacing: 0;
+        margin-bottom: 6px;
+    }
+
+    &__bottom-subtitle{
+        margin-left: 10px;
+        letter-spacing: 1.5px;
+    }
+
+}
+
+@import './adaptDesigner.scss';

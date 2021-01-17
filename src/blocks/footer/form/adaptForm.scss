@@ -1,0 +1,28 @@
+@media screen and (max-width: 1084.98px) {
+    .form{
+    
+        &__wrap{
+            width: 100%;
+        }
+    
+        &__input-text, &__input-email{
+            width: 49.5%;
+        }
+        
+    }
+    
+}
+@media screen and (max-width: 676.98px) {
+    .form{
+    
+        &__wrap{
+            flex-direction: column;
+        }
+    
+        &__input-text, &__input-email{
+            width: 100%;
+        }
+        
+    }
+    
+}

@@ -1,0 +1,45 @@
+.contact{
+
+    &__top-text, &__bottom-text{
+        font-size: 16px;
+        letter-spacing: 1px;
+        line-height: 1.9;
+        font-weight: 400;
+    }
+
+    ul{
+        display: flex;
+        flex-direction: row;
+    }
+
+    &__social{
+        display: flex;
+        width: 44px;
+        height: 45px;
+        border-radius: 5px;
+        background: aqua;
+        margin: 17px 3px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    &__fb{
+        background-color: #345bb4;
+        background-image: url('../img/Facebook.svg');
+    }
+
+    &__dr{
+        background-color: #e64895;
+        background-image: url('../img/Dribbble.svg');
+    }
+
+    &__tw{
+        background-color: #00b4ff;
+        background-image: url('../img/Twitter.svg');
+    }
+
+    &__bottom-text{
+        margin-top: 24px;
+    }
+}
+

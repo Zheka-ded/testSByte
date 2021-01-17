@@ -1,0 +1,52 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+    &__left{
+        display: flex;
+        flex-direction: column;
+        width: 33.35%;
+    }
+
+    &__right{
+        display: flex;
+        flex-direction: column;
+        width: 66.65%;
+        background: url('../img/formBG.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        z-index: 1;
+        padding: 62px 54px 66px 53px;
+        
+        &::before{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(#f3f3f300, #536575);
+            z-index: -1;
+        }
+        
+        &::after{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: #5a665f;
+            opacity: 0.5;
+            z-index: -1;
+        }
+    }
+}
+
+@import './designer/designer.scss';
+@import './form/form.scss';
+@import './contact/contact.scss';
+@import './adaptFooter.scss';

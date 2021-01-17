@@ -1,0 +1,46 @@
+.bold-span{
+    font-family: 'Roboto Bold';
+    letter-spacing: 2px;
+}
+
+.title-text{
+    font-size: 44px;
+    line-height: 1.4;
+    letter-spacing: 1.5px;
+}
+
+.subtitle-text{
+    font-size: 15px;
+    line-height: 1.9;
+    font-weight: 400;
+    letter-spacing: 0.85px;
+}
+
+.black-text{
+    color: #262f32;
+}
+
+.white-text{
+    color: #ffffff;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.body{
+    width: 100%;
+    font-family: 'Roboto Light';
+}
+
+.body__wrap{
+    max-width: 1366px;
+    min-width: 320px;
+    margin: 0 auto;
+}
+
+button{
+    border: none;
+    background: transparent;
+}

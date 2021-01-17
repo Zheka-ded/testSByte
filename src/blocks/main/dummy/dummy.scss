@@ -1,0 +1,48 @@
+.dummy{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: url('../img/dummyBG.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    padding: 54px 145px 54px 54px;
+
+    &::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: #162633;
+        opacity: 0.75;
+        z-index: -1;
+    }
+    
+    &__title-text{
+        margin-top: 5px;
+        margin-bottom: 23px;
+    }
+
+    &__subtitle-text{
+        margin-bottom: 50px;
+    }
+
+    &__btn-wrap{
+        margin-bottom: 17px;
+    }
+
+    &__btn{
+        border: 1px solid white;
+        color: white;
+        border-radius: 10px;
+        padding: 15.5px 42px;
+        letter-spacing: 0.7px;
+        font-size: 16px;
+    }
+}
+
+@import './adaptDummy.scss';
